@@ -3,14 +3,9 @@ import {
   Box,
   IconButton,
   InputBase,
-  Typography,
-  Select,
-  MenuItem,
-  FormControl,
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-
 import {
   Search as SearchIcon,
   DarkModeOutlined,
@@ -20,8 +15,7 @@ import {
   PersonOutlined,
   Menu as MenuIcon,
 } from "@mui/icons-material";
-
-import { useMode, tokens } from "../../theme";
+import { tokens } from "../../theme";
 import { useContext } from "react";
 import { ColorModeContext } from "../../theme";
 
